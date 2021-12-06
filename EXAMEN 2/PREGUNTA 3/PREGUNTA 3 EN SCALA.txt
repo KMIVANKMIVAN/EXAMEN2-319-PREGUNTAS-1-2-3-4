@@ -1,0 +1,2 @@
+def cadena(a:String):Unit={ println("DESCOMPONER EN PALABRAS:")  a.split(" ").foreach(println) println("DESCOMPONER EN CARACTERES O LETRAS:")  for(ch<-a) println(" " + ch + " ")}
+cadena("hola IVAN como va todo por alla")
